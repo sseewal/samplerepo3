@@ -5,4 +5,3 @@ curl -sL https://rpm.nodesource.com/setup_16.x | sudo -E bash -
 yum install -y nodejs 
 npm i -g pm2
 pm2 stop all
-pm2 delete all
